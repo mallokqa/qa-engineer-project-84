@@ -1,0 +1,36 @@
+---
+- summary: |
+    Проверка поисковой строки на сайте по ключевому слову
+  requirement: |
+    При неправильном ключевом слове пользователь видет на странице "Nothing found"
+  prerequisites:
+    Открыта страница https://hexlet-products-store.vercel.app/
+    Строка поиска пустая
+    В category ничего не выбрано, находится в дефолтном состоянии, как при открытии страницы
+    В brand нет чек-боксов
+  test-data: |
+    Пробуем запрос IPhone или Samsung
+  steps:
+    - Открываем страницу https://hexlet-products-store.vercel.app/
+    - Переходим в поисковую строку сайта "Search"
+    - Вводим IPhone
+  expected-result: |
+    Сайт показывает нам товары, которые имеют в своем наименовании IPhone
+
+- summary: |
+    Проверка работы фильтра category
+  requirement: |
+    При неправильном ключевом слове пользователь видет на странице "Nothing found"
+  prerequisites:
+    Открыта страница https://hexlet-products-store.vercel.app/
+    Строка поиска пустая
+    В category ничего не выбрано, находится в дефолтном состоянии, как при открытии страницы
+    В brand нет чек-боксов
+  test-data: |
+    Пробуем запрос IPhone или Samsung
+  steps:
+    - Открываем страницу https://hexlet-products-store.vercel.app/
+    - Переходим в поисковую строку сайта "Search"
+    - Вводим IPhone
+  expected-result: |
+    Сайт показывает нам товары, которые имеют в своем наименовании IPhone
