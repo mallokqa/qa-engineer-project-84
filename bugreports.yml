@@ -2,7 +2,7 @@
 - summary: |
     Некорретная работа фильтра Price
   environment: |
-    Opera   107.0.5045.30 (64 бит)
+    OPR 107.0.5045.30 (64 бит)
     ОС Win 10
   steps-to-reproduce: |
     1. Открываем страницу https://hexlet-products-store.vercel.app/
