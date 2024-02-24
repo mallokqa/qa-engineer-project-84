@@ -11,9 +11,9 @@
   test-data: |
     no-data
   steps:
-    - Открываем страницу https://hexlet-products-store.vercel.app/
-    - Переходим в поисковую строку сайта "Search"
-    - Вводим любой предполагаемый товар, например "IPhone"
+    1.Открываем страницу https://hexlet-products-store.vercel.app/
+    2.Переходим в поисковую строку сайта "Search"
+    3.Вводим любой предполагаемый товар, например "IPhone"
   expected-result: |
     Сайт показывает нам товары, которые имеют в своем наименовании слово, которое мы ввели
   status: pass
@@ -30,10 +30,10 @@
   test-data: |
     no-data
   steps:
-    - Открываем страницу https://hexlet-products-store.vercel.app/
-    - Выбираем в category один из доступных параметров, например "laptops"
+    1.Открываем страницу https://hexlet-products-store.vercel.app/
+    2.Выбираем в category один из доступных параметров, например "laptops"
   expected-result: |
-    Сайт показывает нам в товарах только те позиции, которые соответствуют категории
+    3.Сайт показывает нам в товарах только те позиции, которые соответствуют категории
   status: pass
 
 - summary: |
@@ -63,8 +63,8 @@
   test-data: |
     no-data
   steps:
-    - Открываем страницу https://hexlet-products-store.vercel.app/
-    - Выбираем любую карточку товара и кликаем на нее
+    1.Открываем страницу https://hexlet-products-store.vercel.app/
+    2.Выбираем любую карточку товара и кликаем на нее
   expected-result: |
     Открывается данный товар с дополнительной информацией: описание товара, рейтинг, указано количество скидки, остаток на складе, есть дополнительные фотографии товара, а также указан хештег для поиска и есть кнопка добавления товара в корзину
   status: pass
@@ -78,8 +78,8 @@
   test-data: |
     no-data
   steps:
-    - Открываем страницу https://hexlet-products-store.vercel.app/
-    - Выбираем любой товар и нажимаем кнопку "В корзину"
+    1.Открываем страницу https://hexlet-products-store.vercel.app/
+    2.Выбираем любой товар и нажимаем кнопку "В корзину"
   expected-result: |
     Появляется уведомление над "корзина", о количестве добавленных позиций 
   status: pass
@@ -95,8 +95,8 @@
   test-data: |
     no-data
   steps:
-    - Открываем страницу https://hexlet-products-store.vercel.app/
-    - Переходим в "корзина"
+    1.Открываем страницу https://hexlet-products-store.vercel.app/
+    2.Переходим в "корзина"
   expected-result: |
     В корзине находятся позиции ,которые мы добавили
   status: pass
