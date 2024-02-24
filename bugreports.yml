@@ -50,6 +50,7 @@
   steps-to-reproduce: |
     1. Открываем страницу https://hexlet-products-store.vercel.app/
     2. Нажимаем на Language
+    3. Screenshot lang_icon
   expected-result: |
     Видим иконки Русского и Английского языка
   actual-result: |
@@ -65,6 +66,7 @@
     2. Кликаем на любой товар, чтобы получить полную информацию
     3. Видим Description (описание товара)
     4. Переключаемся на русскую версию сайта в "Язык"
+    5. Screenshot description
   expected-result: |
     Description переводится для русской локализации, как и другие элементы страницы
   actual-result: |
@@ -151,19 +153,21 @@
   steps-to-reproduce: |
     1. Открываем страницу https://hexlet-products-store.vercel.app/
     2. Обращаем внимание на поисковую строку
+    3. Screenshot searcbar_cb
   expected-result: |
     Поисковая строка помещается в поля верстки и не выходит за границы других элементов страницы
   actual-result: |
     Поисковая строка на мобильных устройствах выступает за поля верстки
 
 - summary: |
-    На некоторых мобильных устройствах карточки товара идут внизу сайта, а на верху страницы остается другйо интерфейс
+    На некоторых мобильных устройствах карточки товара идут внизу сайта, а на верху страницы остается другой интерфейс
   environment: |
     OPR 107.0.5045.30 (64 бит)
     ОС Win 10
-    Dimension: Шириной меньше 371 пикселей
+    Dimension: Шириной меньше 413 пикселей
   steps-to-reproduce: |
     1. Открываем страницу https://hexlet-products-store.vercel.app/
+    2. blocks_cb
   expected-result: |
     Интерфейс целостный и не разделяется на различные части
   actual-result: |
@@ -179,6 +183,7 @@
     1. Открываем страницу https://hexlet-products-store.vercel.app/
     2. Добавляем товар в корзину
     3. Переходим в корзину
+    4. Screenshot checkout
   expected-result: |
     Кнопка Checkout в корзине отображается корректно и текст внутри оцентрован
   actual-result: |
