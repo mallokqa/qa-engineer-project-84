@@ -4,14 +4,14 @@
   requirement: |
     При валидном ключевом слове, страница выдает актуальную выдачу, при неправильном ключевом слове пользователь видит на странице "Nothing found"
   prerequisites:
-    Открыта страница https://hexlet-products-store.vercel.app/
+    Открыта страница "https://hexlet-products-store.vercel.app/"
     Строка поиска пустая
     В category ничего не выбрано, находится в дефолтном состоянии, как при открытии страницы
     В brand нет чек-боксов
   test-data: |
     no-data
   steps:
-    1.Открываем страницу https://hexlet-products-store.vercel.app/
+    1.Открываем страницу "https://hexlet-products-store.vercel.app/"
     2.Переходим в поисковую строку сайта "Search"
     3.Вводим любой предполагаемый товар, например "IPhone"
   expected-result: |
@@ -22,14 +22,14 @@
   requirement: |
     Выбор по категории, сортирует все товары сайта по типу, при отсутствии товара в данной категории страница имеет надпись "Nothing found"
   prerequisites:
-    Открыта страница https://hexlet-products-store.vercel.app/
+    Открыта страница "https://hexlet-products-store.vercel.app/"
     Строка поиска пустая
     В category ничего не выбрано, находится в дефолтном состоянии, как при открытии страницы
     В brand нет чек-боксов
   test-data: |
     no-data
   steps:
-    1.Открываем страницу https://hexlet-products-store.vercel.app/
+    1.Открываем страницу "https://hexlet-products-store.vercel.app/"
     2.Выбираем в category один из доступных параметров, например "laptops"
   expected-result: |
     Сайт показывает нам в товарах только те позиции, которые соответствуют категории
@@ -39,14 +39,14 @@
   requirement: |
     Фильтр учитывает скидочныe значениям и фильтрует товары с актуальной ценой
   prerequisites:
-    Открыта страница https://hexlet-products-store.vercel.app/
+    Открыта страница "https://hexlet-products-store.vercel.app/"
     Строка поиска пустая
     В category ничего не выбрано, находится в дефолтном состоянии, как при открытии страницы
     В brand нет чек-боксов
   test-data: |
     no-data
   steps:
-    1.Открываем страницу https://hexlet-products-store.vercel.app/
+    1.Открываем страницу "https://hexlet-products-store.vercel.app/"
     2.Вводим в строке Price максимальное значение, например 800 у.е.
   expected-result: |
     Сайт показывает нам все товары с учетом скидки до 800 у.е. и не дороже
@@ -56,11 +56,11 @@
   requirement: |
     Должна открываться страница с товаром, где имеется расширеная информация о нем
   prerequisites:
-    Открыта страница https://hexlet-products-store.vercel.app/
+    Открыта страница "https://hexlet-products-store.vercel.app/"
   test-data: |
     no-data
   steps:
-    1.Открываем страницу https://hexlet-products-store.vercel.app/
+    1.Открываем страницу "https://hexlet-products-store.vercel.app/"
     2.Выбираем любую карточку товара и кликаем на нее
   expected-result: |
     Открывается данный товар с дополнительной информацией: описание товара, рейтинг, указано количество скидки, остаток на складе, есть дополнительные фотографии товара, а также указан хештег для поиска и есть кнопка добавления товара в корзину
@@ -70,11 +70,11 @@
   requirement: |
     Товар должен быть в наличии
   prerequisites:
-    Открыта страница https://hexlet-products-store.vercel.app/
+    Открыта страница "https://hexlet-products-store.vercel.app/"
   test-data: |
     no-data
   steps:
-    1.Открываем страницу https://hexlet-products-store.vercel.app/
+    1.Открываем страницу "https://hexlet-products-store.vercel.app/"
     2.Выбираем любой товар и нажимаем кнопку "В корзину"
   expected-result: |
     Появляется уведомление над "корзина", о количестве добавленных позиций 
@@ -84,13 +84,13 @@
   requirement: |
     Товар должен быть в наличии
   prerequisites:
-    Открыта страница https://hexlet-products-store.vercel.app/
+    Открыта страница "https://hexlet-products-store.vercel.app/"
     Любая позиция на сайте уже добавлена в корзину
     Есть уведомление над "корзина" в количестве добавленных позиций
   test-data: |
     no-data
   steps:
-    1.Открываем страницу https://hexlet-products-store.vercel.app/
+    1.Открываем страницу "https://hexlet-products-store.vercel.app/"
     2.Переходим в "корзина"
   expected-result: |
     В корзине находятся позиции ,которые мы добавили
