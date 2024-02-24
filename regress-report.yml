@@ -59,86 +59,86 @@ test-cases:
 bugreports:
   - summary: |
     Search bar, если не может найти позицию показывает все товары сайта
-  environment: |
-    OPR 107.0.5045.30 (64 бит)
-    ОС Win 10
-  steps-to-reproduce: |
-    1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-    2. Вводим в Search bar любое наименование товара
-    3. Если у нас нашлась нужная позиция, то добавляем дополнительный символ, который испортит выдачу
-  expected-result: |
-    Сайт указывает на странице, на то что "товары не найдены"
-  actual-result: |
-    Сайт не берет в учет Search bar и просто показывает все товары сайта
+	  environment: |
+	    OPR 107.0.5045.30 (64 бит)
+	    ОС Win 10
+	  steps-to-reproduce: |
+	    1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+	    2. Вводим в Search bar любое наименование товара
+	    3. Если у нас нашлась нужная позиция, то добавляем дополнительный символ, который испортит выдачу
+	  expected-result: |
+	    Сайт указывает на странице, на то что "товары не найдены"
+	  actual-result: |
+	    Сайт не берет в учет Search bar и просто показывает все товары сайта
 
   - summary: |
     Некорректная работа фильтра category в v2 версии сайта
-  environment: |
-    OPR 107.0.5045.30 (64 бит)
-    ОС Win 10
-  steps-to-reproduce: |
-    1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-    2. В category выбираем пустое значение
-    3. Выбираем любой другой фильтр и применяем его, например вводим значения в Price, ставим чек-бокс в Brand
-  expected-result: |
-    Сайт показывает товары, которые относятся к выбраному дополнительному фильтру, так как category выбрана "все товары или без фильтра"
-  actual-result: |
-    Сайт не реагирует на дополнительные фильтры, после выборы пустой category
+	  environment: |
+	    OPR 107.0.5045.30 (64 бит)
+	    ОС Win 10
+	  steps-to-reproduce: |
+	    1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+	    2. В category выбираем пустое значение
+	    3. Выбираем любой другой фильтр и применяем его, например вводим значения в Price, ставим чек-бокс в Brand
+	  expected-result: |
+	    Сайт показывает товары, которые относятся к выбраному дополнительному фильтру, так как category выбрана "все товары или без фильтра"
+	  actual-result: |
+	    Сайт не реагирует на дополнительные фильтры, после выборы пустой category
 
   - summary: |
     Некорректная работа in stock
-  environment: |
-    OPR 107.0.5045.30 (64 бит)
-    ОС Win 10
-  steps-to-reproduce: |
-    1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-    2. Отключаем чек-бокс в in stock
-  expected-result: |
-    Сайт показывает товары, которых сейчас нет в наличие на сайте
-  actual-result: |
-    Сайт показывает те же самые товары, а также отключает функцию перехода на следующую страницу товаров
+	  environment: |
+	    OPR 107.0.5045.30 (64 бит)
+	    ОС Win 10
+	  steps-to-reproduce: |
+	    1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+	    2. Отключаем чек-бокс в in stock
+	  expected-result: |
+	    Сайт показывает товары, которых сейчас нет в наличие на сайте
+	  actual-result: |
+	    Сайт показывает те же самые товары, а также отключает функцию перехода на следующую страницу товаров
 
 - summary: |
     При фильтрации, которая выдает только одну позицию имеет проблему с версткой на пк
-  environment: |
-    OPR 107.0.5045.30 (64 бит)
-    ОС Win 10
-  steps-to-reproduce: |
-    1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-    2. Выбираем в brand чек-бокс, в котором будет показывать один товар, например "Lord - Al-Rehab"
-  expected-result: |
-    Сайт показывает товар(ы) с корректной версткой
-  actual-result: |
-    Сайт показывает один товар с некорректной версткой (числа все написаны слитно, кнопка добавления в корзину отражается неверно)
+	  environment: |
+	    OPR 107.0.5045.30 (64 бит)
+	    ОС Win 10
+	  steps-to-reproduce: |
+	    1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+	    2. Выбираем в brand чек-бокс, в котором будет показывать один товар, например "Lord - Al-Rehab"
+	  expected-result: |
+	    Сайт показывает товар(ы) с корректной версткой
+	  actual-result: |
+	    Сайт показывает один товар с некорректной версткой (числа все написаны слитно, кнопка добавления в корзину отражается неверно)
 
 - summary: |
     Checkout попап-окно при оформлении заказа, кнопка закрытия окна через "Х" не работает
-  environment: |
-    OPR 107.0.5045.30 (64 бит)
-    ОС Win 10
-  steps-to-reproduce: |
-    1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-    2. Добавляем любой товар в корзину
-    3. Переходим в корзину
-    4. Нажимаем оформить заказ
-    5. Вместо нажатия "Close" в всплывающем окне, нажимаем "х"
-  expected-result: |
-    Окно закрывается, как в случае нажатия кнопки "Close"
-  actual-result: |
-    С окном при нажатии "Х" ничего не происходит
+	  environment: |
+	    OPR 107.0.5045.30 (64 бит)
+	    ОС Win 10
+	  steps-to-reproduce: |
+	    1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+	    2. Добавляем любой товар в корзину
+	    3. Переходим в корзину
+	    4. Нажимаем оформить заказ
+	    5. Вместо нажатия "Close" в всплывающем окне, нажимаем "х"
+	  expected-result: |
+	    Окно закрывается, как в случае нажатия кнопки "Close"
+	  actual-result: |
+	    С окном при нажатии "Х" ничего не происходит
 
   - summary: |
-    Checkout попап-окно при оформлении заказа, кнопка закрытия окна через "Х" не работает
-  environment: |
-    OPR 107.0.5045.30 (64 бит)
-    ОС Win 10
-  steps-to-reproduce: |
-    1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-    2. Добавляем любой товар в корзину
-    3. Переходим в корзину
-    4. Нажимаем оформить заказ
-    5. Вместо нажатия "Close" в всплывающем окне, нажимаем "х"
-  expected-result: |
-    Окно закрывается, как в случае нажатия кнопки "Close"
-  actual-result: |
-    С окном при нажатии "Х" ничего не происходит
+    	Checkout попап-окно при оформлении заказа, кнопка закрытия окна через "Х" не работает
+  	environment: |
+    	OPR 107.0.5045.30 (64 бит)
+    	ОС Win 10
+  	steps-to-reproduce: |
+    	1. Открываем страницу https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
+    	2. Добавляем любой товар в корзину
+    	3. Переходим в корзину
+    	4. Нажимаем оформить заказ
+    	5. Вместо нажатия "Close" в всплывающем окне, нажимаем "х"
+  	expected-result: |
+    	Окно закрывается, как в случае нажатия кнопки "Close"
+  	actual-result: |
+    	С окном при нажатии "Х" ничего не происходит
