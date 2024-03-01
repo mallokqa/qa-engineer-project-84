@@ -1,67 +1,67 @@
 ---
 - summary: |
     Проверка поиска по ключевому слову
-    status: pass
+  status: pass
 
 - summary: |
     Проверка поиска по category
-    status: 
+  status: pass
 
 - summary: |
     Проверка учета скидки в фильтре по цене
-    status: 
+  status: pass
 
 - summary: |
     Проверка открытия карточки товара
-    status: 
+  status: pass
   
 - summary: |
     Проверка добавлении товара в корзину
-    status: 
+  status: pass
 
 - summary: |
     Проверка отображения уведомления при добавлении товара в корзину
-    status: 
+  status: pass
 
 - summary: |
     Проверка оформления заказа
-    status: 
+  status: pass 
 
 - summary: |
     Проверка перехода на страницу оплаты
-    status: 
+  status: pass
 
 - summary: |
     Проверка карточки товара
-    status: 
+  status: pass
 
 - summary: |
     Проверка переходов между страницами
-    status: 
+  status: pass
 
 - summary: |
     Проверка переходов между страницами с выбраной категорий
-    status: 
+  status: pass
 
 - summary: |
     Проверка переходов между страницами с выбраными Brand
-    status: 
+  status: pass
 
 - summary: |
     Проверка сохранения сессии для корзины
-    status: 
+  status: pass
 
 - summary: |
     Удаление товара из корзины
-    status: 
+  status: pass
 
 - summary: |
     Проверка на перезагрузку страницы (SPA)
-    status: 
+  status: pass
 
 - summary: |
     Проверка кнопки Continiue shoping
-    status: 
+  status: pass
 
     
 
