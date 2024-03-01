@@ -213,7 +213,19 @@
   expected-result: |
     Страница не перезагружается
 
-
+- summary: |
+    Проверка кнопки Continiue shoping
+  requirement: |
+    no-data
+  prerequisites:
+    no-data
+  test-data: |
+    no-data
+  steps:
+    - Открыть страницу корзины
+    - Нажимаем продолжить покупки
+  expected-result: |
+    Сайт возвращает нас на главную страницу
 
     
 
