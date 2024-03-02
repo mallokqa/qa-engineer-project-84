@@ -8,6 +8,10 @@
   status: pass
 
 - summary: |
+    Проверка чек-бокса in stock
+  status: pass
+
+- summary: |
     Проверка учета скидки в фильтре по цене
   status: pass
 
