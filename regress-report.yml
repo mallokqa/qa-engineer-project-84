@@ -67,7 +67,7 @@ test-cases:
   - summary: |
      Проверка переходов между страницами с выбраными Brand
     status: fail
-	
+
   - summary: |
      Проверка сохранения сессии для корзины
     status: fail
