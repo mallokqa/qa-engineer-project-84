@@ -1,8 +1,8 @@
 ---
 test-cases:
-	- summary: | 
+  - summary: | 
 	    Проверка поиска по ключевому слову
-	  status: pass
+    status: pass
 	
 	- summary: |
 	    Проверка поиска по category
