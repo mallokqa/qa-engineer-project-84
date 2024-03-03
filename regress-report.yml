@@ -53,10 +53,6 @@ test-cases:
     status: fail
 
   - summary: |
-     Проверка перехода на страницу оплаты
-    status: fail
-
-  - summary: |
      Проверка карточки товара
     status: pass
 
