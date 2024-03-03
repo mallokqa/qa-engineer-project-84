@@ -141,7 +141,7 @@
   environment: |
     OPR 107.0.5045.30 (64 бит)
     ОС Win 10
-   steps-to-reproduce: |
+  steps-to-reproduce: |
     1. Выбираем все вкладки Brand
     2. Нажимаем переход "Следующая"
   expected-result: |
@@ -154,7 +154,7 @@
   environment: |
     OPR 107.0.5045.30 (64 бит)
     ОС Win 10
-   steps-to-reproduce: |
+  steps-to-reproduce: |
     1. Добавляем товар в корзину
     2. Переходим в корзину и проверям, что товар добавлен
     3. Закрываем сессию
@@ -169,7 +169,7 @@
   environment: |
     OPR 107.0.5045.30 (64 бит)
     ОС Win 10
-   steps-to-reproduce: |
+  steps-to-reproduce: |
     1. Нажимаем оформить заказ
     2. Появляется уведомление об успешном оформлении заказа
     3. После оформления заказа, происходит переход на страницу оплаты
@@ -183,7 +183,7 @@
   environment: |
     OPR 107.0.5045.30 (64 бит)
     ОС Win 10
-   steps-to-reproduce: |
+  steps-to-reproduce: |
     1. Перейти в карточку любого товара
     2. Нажать на тег-категории
   expected-result: |
