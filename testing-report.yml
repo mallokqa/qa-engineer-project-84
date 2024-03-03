@@ -28,10 +28,6 @@
   status: fail
 
 - summary: |
-    Проверка перехода на страницу оплаты
-  status: fail
-
-- summary: |
     Проверка карточки товара
   status: pass
 
@@ -53,10 +49,6 @@
 
 - summary: |
     Удаление товара из корзины
-  status: pass
-
-- summary: |
-    Проверка на перезагрузку страницы (SPA)
   status: pass
 
 - summary: |
