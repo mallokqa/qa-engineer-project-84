@@ -13,11 +13,7 @@
 
 - summary: |
     Проверка учета скидки в фильтре по цене
-  status: pass
-
-- summary: |
-    Проверка открытия карточки товара
-  status: pass
+  status: fail
   
 - summary: |
     Проверка добавлении товара в корзину
@@ -29,11 +25,11 @@
 
 - summary: |
     Проверка оформления заказа
-  status: pass 
+  status: fail
 
 - summary: |
     Проверка перехода на страницу оплаты
-  status: pass
+  status: fail
 
 - summary: |
     Проверка карточки товара
@@ -49,11 +45,11 @@
 
 - summary: |
     Проверка переходов между страницами с выбраными Brand
-  status: pass
+  status: fail
 
 - summary: |
     Проверка сохранения сессии для корзины
-  status: pass
+  status: fail
 
 - summary: |
     Удаление товара из корзины
