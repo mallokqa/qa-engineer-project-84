@@ -9,7 +9,7 @@ test-cases:
     status: pass
 
   - summary: |
-     Проверка чек-бокса in stock
+     Проверка отображения всех товаров при выключенном фильтре in stock
     status: pass
 
   - summary: |
@@ -41,7 +41,7 @@ test-cases:
     status: pass
 
   - summary: |
-     Проверка отображения уведомления при добавлении товара в корзину
+     Проверка бейджа на иконке корзины при добавлении товара
     status: pass
 
   - summary: |
@@ -53,7 +53,7 @@ test-cases:
     status: fail
 
   - summary: |
-     Проверка карточки товара
+     Проверка открытия карточки товара
     status: pass
 
   - summary: |
