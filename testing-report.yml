@@ -63,6 +63,8 @@
     Проверка кнопки Continiue shoping
   status: pass
 
-    
+- summary: |
+    Проверка перехода в категорию товаров внутри карточки товара 
+  status: fail
 
     
