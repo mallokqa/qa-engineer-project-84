@@ -1,40 +1,92 @@
 ---
-test-cases:
-  - summary: |
-     Проверка учета скидки в фильтре по цене
-    status: fail
+- summary: |
+    Проверка поиска по ключевому слову
+  status: pass
 
-  - summary: |
-     Проверка учета скидки в фильтре по цене, включение граничного значения
-    status: fail
+- summary: |
+    Проверка поиска по category
+  status: pass
 
-  - summary: |
-     Корзина отображает товары, после их очистки при перезагрузке страницы
-    status: fail
+- summary: |
+    Проверка чек-бокса in stock
+  status: pass
 
-  - summary: |
-     Проверка иконки Английского языка
-    status: pass
+- summary: |
+    Проверка учета скидки в фильтре по цене
+  status: fail
+  
+- summary: |
+    Проверка Price на граничное значение
+  status: fail
 
-  - summary: |
-     Проверка перевода Description для русской версии сайта
-    status: fail
+- summary: |
+    Иконка Английского языка
+  status: pass
 
-  - summary: |
-     Проверка фильтра category на пустое значение
-    status: pass
+- summary: |
+    Проверка локализации в карточке товара (description)
+  status: fail
+  
+- summary: |
+    Проверка добавлении товара в корзину
+  status: pass
 
-  - summary: |
-     Проверка карусели в карточке товара
-    status: pass
+- summary: |
+    Проверка обнуления фильтра category
+  status: pass
 
-  - summary: |
-     Проверка мобильной версии сайта
-    status: pass
+- summary: |
+    Проверка наличия карусели в карточке товара
+  status: pass
 
-  - summary: |
-     Проверка корректного отображения элементов корзины на мобильных устрйоствах
-    status: fail
+- summary: |
+    Проверка отображения уведомления при добавлении товара в корзину
+  status: pass
+  
+- summary: |
+    Проверка очистки корзины
+  status: fail
+
+- summary: |
+    Проверка оформления заказа
+  status: fail
+
+- summary: |
+    Проверка перехода на страницу оплаты
+  status: fail
+
+- summary: |
+    Проверка карточки товара
+  status: pass
+
+- summary: |
+    Проверка переходов между страницами
+  status: pass
+
+- summary: |
+    Проверка переходов между страницами с выбраной категорий
+  status: pass
+
+- summary: |
+    Проверка переходов между страницами с выбраными Brand
+  status: fail
+
+- summary: |
+    Проверка сохранения сессии для корзины
+  status: fail
+
+- summary: |
+    Удаление товара из корзины
+  status: pass
+
+- summary: |
+    Проверка кнопки Continiue shoping
+  status: pass
+
+- summary: |
+    Проверка перехода в категорию товаров внутри карточки товара 
+  status: pass
+
     
 bugreports:
   - summary: |
